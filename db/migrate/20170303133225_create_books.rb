@@ -6,6 +6,7 @@ class CreateBooks < ActiveRecord::Migration[5.0]
       t.string :Author
       t.string :Genre
       t.string :CoverImage
+      t.text    :Details
       t.integer :YearID
       t.integer :LevelID
 
